@@ -2,7 +2,7 @@
 
 imageMe is a super simple image gallery server.
 
-Think `python -m SimpleHTTPServer` for pictures.
+Think `python -m http.server` for pictures.
 
 ![](http://www.imageme.xyz/images/screenshots/image_index.png)
 
@@ -11,7 +11,7 @@ Think `python -m SimpleHTTPServer` for pictures.
 To run the image server on port 8000:
 
 ```bash
-curl https://cdn.rawgit.com/unwitting/imageme/master/imageme.py | python
+curl https://raw.githubusercontent.com/Sitolam/imageme/master/imageme.py | python
 ```
 
 ## Manual Usage
@@ -23,13 +23,13 @@ Get hold of a copy of `imageme.py`. For _really_ easy use put it in your `PATH`.
 You could clone this repo:
 
 ```bash
-> git clone https://github.com/unwitting/imageme.git
+> git clone https://github.com/sitolam/imageme.git
 ```
 
 Or just grab the file directly:
 
 ```bash
-> wget https://cdn.rawgit.com/unwitting/imageme/master/imageme.py
+> wget https://cdn.rawgit.com/sitolam/imageme/master/imageme.py
 ```
 
 ### Step 2: Run imageMe
